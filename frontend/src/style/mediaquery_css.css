@@ -1,0 +1,364 @@
+/* ************************************************************  1024 screeen >>>>>>>>>>>>>>>>. */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    /* ***** header */
+    .banner_sectionOne>.banner_content>h1 {
+        font-size: 180px;
+        text-align: center;
+    }
+
+    /* ******* section second  */
+    .center_built_button>.buit_button {
+        font-size: 12px;
+        padding: 10px 6px !important;
+    }
+}
+
+/* ****************** section Third section .... */
+.section_three_title>h2 {
+    font-weight: 600;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+
+.section_three_digit>.counting_digit {
+    gap: 50px;
+}
+
+.sectionThree>.section_three_bg>.bg_img>img {
+    width: 40%;
+}
+
+.sectionThree>.section_three_bg>.bg_img>.bg_blur {
+    left: 100px;
+    height: auto;
+    top: 237px;
+}
+
+/* *********************************** dection fourth ...... */
+
+
+
+/* *********************** section Sixth Section >>>>> */
+.section_sixth_card {
+    padding: 0;
+}
+
+.section_sixth_title {
+    margin: 2rem 0rem;
+}
+
+.section_sixth_card>.card>.badge_title>h5 {
+    font-size: 16px;
+}
+
+/* ******************** section seventh >>>>>>> */
+.section_seventh_blocks {
+    height: 300px;
+}
+
+.section_seventh_blocks>.block_bg>img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.section_seventh_second_block {
+
+    height: 300px;
+
+}
+
+/* **********************************  768 px screen >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 768px) and (min-width: 427px) {
+
+    /* ******section one >>>>>>>>>>>>>>> */
+    .banner_sectionOne>.banner_content>h1 {
+        font-size: 130px;
+        text-align: center;
+    }
+
+    .banner_sectionOne>.banner_content>h4 {
+        font-size: 25px;
+        margin-right: 30px;
+        margin-top: 16px;
+    }
+
+    /* *** */
+    .banner_sectionOne>.banner_content>.banner_three_block>.block {
+        padding-left: 10px;
+        border-left: 5px solid #d6d6d6;
+    }
+
+    .banner_three_block {
+        gap: 20px;
+        ;
+    }
+
+    /* **** */
+    .banner_sectionOne>.banner_content>.banner_three_block>.block>p {
+        font-size: 14px;
+    }
+
+    /* (******************** second section .......... */
+    .center_built_button>.buit_button {
+        font-size: 11px;
+        padding: 7px 4px !important;
+    }
+
+    /* *********************** third sectionnn */
+    .section_three_digit>.counting_digit {
+        gap: 35px;
+    }
+
+    .section_three_digit>.counting_digit>.count_number>p:nth-child(1) {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>img {
+        width: 35%;
+        top: 200px;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>.bg_blur {
+        left: 60%;
+        height: auto;
+        top: 430px;
+    }
+
+    /* **************************** section foruth */
+    .section_fourth_bg {
+        padding: 0px 20px;
+    }
+
+    .section_fourth_content>.section_fourth_text>h2 {
+        font-size: 30px;
+
+    }
+
+    .section_fourth_content>.section_fourth_text>p {
+        font-size: 14px;
+
+    }
+
+    /* ******************************* section fivth  */
+
+
+    .md-pb {
+        padding: 0px 10px !important;
+    }
+
+    /* * section ninth  */
+    .contact_side_bg>img {
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+
+/* *********************************<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  425 px obile c]viiew  */
+@media (max-width: 426px) and (min-width: 377px) {
+
+    /* ************ first section >>>> */
+
+    .banner_sectionOne>.banner_content>h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .banner_sectionOne>.banner_content>h4 {
+        font-size: 17px;
+        margin-right: 0;
+    }
+
+    .banner_sectionOne>.banner_content>.banner_three_block {
+        display: none;
+    }
+
+    /* ********** scond section  */
+    .center_built_button {
+        display: none;
+    }
+
+    /* ***************** section three  */
+    .section_three_title>h2 {
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .section_three_digit>.counting_digit>.count_number {
+        width: 100px;
+    }
+
+    .section_three_digit>.counting_digit>.count_number:nth-child(1) {
+        width: 132px;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>img {
+        width: 26%;
+        top: 145px;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>.bg_blur {
+        top: 300px;
+    }
+
+    /* ************************ section fourth .............. */
+    .section_fourth_bg {
+        height: 100%;
+        padding: 20px 10px;
+    }
+
+    .sectionFourth {
+        padding: 0px 10px;
+    }
+
+    .section_fourth_content {
+        height: 160px;
+    }
+
+    .section_fourth_content>.section_fourth_text>h2 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .section_fourth_content>.section_fourth_text>p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .section_fourth_button {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ******************************** section fifth >>>>>>>>>>>>>>> */
+    .section_fifth_title>h3 {
+        font-weight: 600;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /* ********************************** section sixth >>>>>>>>>> */
+    .section_sixth_title>h3 {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .contact_side_bg>img {
+        margin-top: 20px;
+    }
+}
+
+/* ******************************************************************* >>>>> 375 px >>>>>>>>>>>>> */
+@media (max-width: 376px) and (min-width: 321px) {
+
+    /* ****** section three */
+    .sectionThree>.section_three_bg>.bg_img>img {
+        width: 30%;
+        top: 360px;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>.bg_blur {
+        top: 590px;
+    }
+
+    .section_three_digit>.counting_digit>.count_number:nth-child(4) {
+        width: 160px;
+    }
+
+    .section_three_digit>.counting_digit>.count_number:nth-child(5) {
+        width: 280px;
+    }
+
+    /* *********************** section fourth >>>>>>>>>>>>>. */
+    .section_fourth_bg>.row {
+        padding: 0px 20px;
+    }
+
+    .section_fourth_content>.section_fourth_text>h2 {
+        font-size: 26px;
+    }
+
+    .section_fourth_content {
+        height: 110px;
+    }
+
+    .label {
+        padding: 0px 22px;
+        font-size: 13px;
+        line-height: 38px;
+    }
+
+    /* ************************ footer nbottom  */
+    .footer_after_section {
+        text-align: center;
+    }
+
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_title>h4 {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer_button {
+        justify-content: center;
+    }
+
+    /* *** */
+    .bottom_footer>.bottom_footer_text>p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* **********************************>>>>>>>>>>>>>>>>>> >>.  size 320px  >>>>> */
+@media (max-width:320px) {
+
+    /* *******section third  */
+    .sectionThree>.section_three_bg>.bg_img>.bg_blur {
+        top: 590px;
+        left: 70%;
+    }
+
+    .sectionThree>.section_three_bg>.bg_img>img {
+        width: 27%;
+        top: 382px;
+    }
+
+    /* ********** section fourth  */
+    .section_fourth_content>.section_fourth_text>h2 {
+        font-size: 21px;
+    }
+
+    .label {
+        padding: 0px 20px;
+        font-size: 13px;
+        line-height: 32px;
+    }
+
+    /* ****************** section fifth */
+    .section_fifth_title>h3 {
+        font-weight: 600;
+        padding: 0px 10px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    /* ********************** section eight */
+    .section_eight_title>h3 {
+        font-size: 22px;
+    }
+}
