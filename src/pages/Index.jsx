@@ -13,6 +13,7 @@ import Footer from '../components/Footer'
 import SectionSlider from '../components/index/SectionSlider'
 import BlogSection from '../components/index/blogs/BlogSection'
 import OurLocation from '../components/index/ourlocation/OurLocation'
+import ArrrowButton from '../components/index/fixed_button/ArrrowButton'
 
 export default function Index() {
 
@@ -42,6 +43,7 @@ export default function Index() {
             {/* (((((((((((()))))))))))) */}
             {/* <SectionNinth /> */}
             <OurLocation />
+            <ArrrowButton />
             {/* ******************** */}
             <Footer />
         </>

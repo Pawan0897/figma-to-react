@@ -157,7 +157,7 @@ function closeMenu() {
                                 <li className="nav-item">
                                     <Link
                                         className="nav-link fw-semibold visible  hover:text-indigo-600"
-                                        to="#"
+                                        to="aboutus"
                                     >
                                         About Us
                                     </Link>

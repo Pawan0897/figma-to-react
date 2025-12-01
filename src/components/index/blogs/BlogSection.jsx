@@ -101,6 +101,11 @@ export default function BlogSection() {
                     key={index}
                     onMouseEnter={() => setHoveredSlide(index)}
                     onMouseLeave={() => setHoveredSlide(null)}
+                    onClick={() => {
+                      if (window.innerWidth <= 480) {
+                        setHoveredSlide(index);
+                      }
+                    }}
                   >
                     <div
                       className="card p-4 text-start h-20 shadow-xl border-0 relative"
@@ -112,7 +117,7 @@ export default function BlogSection() {
                         color: hoveredSlide === index ? "#fff" : "#000",
                         boxShadow:
                           hoveredSlide === index
-                            ? ""
+                            ? "0px 0px 0px 0px #dddddd"
                             : "0px 0px 9px 0px #dddddd",
                         backgroundSize: "100%",
                         backgroundRepeat: "no-repeat",
@@ -120,19 +125,38 @@ export default function BlogSection() {
                       }}
                     >
                       <div className="blog_time">
-                        <p>6 min read</p>
+                        <p>{item?.readTime}</p>
                       </div>
                       {/* ********* */}
                       <div className="blog_body">
                         <h2>
-                          Revolutionizing E-commerce Content Re-platforming: How
-                          Generative AI Can Alleviate Key Pain Points
+                        Small Batch, Big Problem: Navigating the Peril of Underestimating Initial Demand in Fast Fashion an More Advanced 
                         </h2>
                       </div>
                       {/* **** */}
                       <div className="blog_button absolute bottom-5  ">
-                        <button className="text-center border rounded">
-                          Read Blog
+                    
+                        <button className="animated-button  rounded" 
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="arr-2"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                          </svg>
+                          <span className="text" 
+                        >Read More</span>
+                          <span className="circle"></span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="arr-1"
+                            
+                            fill={hoveredSlide === index ? "white" : "black"}
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                          </svg>
                         </button>
                       </div>
                     </div>

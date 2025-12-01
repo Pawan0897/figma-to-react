@@ -658,7 +658,7 @@ section {
 .sectionSixth>.section_sixth_bg {
     background-image: url("../img/linear_bg.png");
     background-size: cover;
-
+background-position: center 50%;
 }
 
 .section_sixth_card>.card {
