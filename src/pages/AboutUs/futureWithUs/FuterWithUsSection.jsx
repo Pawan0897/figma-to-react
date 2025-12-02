@@ -1,0 +1,50 @@
+import React from "react";
+import block_img from "../img/recruitment-feature.webp";
+import "./style.css";
+import ToggleButton from "./ToggleButton";
+export default function FuterWithUsSection() {
+  return (
+    <>
+      <section className="px-50 py-20">
+        <div className="container-fluid">
+          {/* ************************************ */}
+          <div className="row items-center justify-center">
+            <div className="col-md-6">
+              <div className="future_section">
+                {/* ************************************ */}
+                <div className="left_block">
+                  <div className="block_img ">
+                    <img src={block_img} className="rounded-3xl" />
+                  </div>
+                </div>
+                {/* ************************************ */}
+              </div>
+            </div>
+            {/* ****************** colmdend */}
+            <div className="col-md-6">
+              <div className="right_block">
+                <div className="title ">
+                  <h5>start bright future with us</h5>
+                  {/* ********************************** */}
+                  <h2 className="text-capitalize ">
+                    Get industry-leading recruitment plans
+                  </h2>
+                  {/* ********************************** */}
+                  <p className="pt-3">
+                    At mattis elementum semper tellus donec ornare. Dis dolor
+                    pellentesque dui auctor urna nam lectus.
+                  </p>
+                  {/* ********************************** */}
+                </div>
+                <div className="block_collapse">
+                    <ToggleButton />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ************************************ */}
+        </div>
+      </section>
+    </>
+  );
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../aboutus.webp";
+import aboutImg from "../img/aboutus.webp";
 import "./style.css";
 export default function AboutUsBanner() {
   return (
@@ -9,7 +9,7 @@ export default function AboutUsBanner() {
           <div className="row justify-center  items-center">
             <div className="col-md-7">
                 <div className="banner pbl">
-<div className="aboutBanner  flex justify-center items-center rounded-3xl">
+              <div className="aboutBanner  flex justify-center items-center rounded-3xl">
                 <div className="bannerContent ">
                   <h2 className="text-capitalize text-light">About Us</h2>
                   <p className="text-light text-center text-capitalize ">about us</p>

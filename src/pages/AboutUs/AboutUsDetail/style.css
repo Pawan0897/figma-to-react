@@ -58,7 +58,26 @@
     right: 0;
     left:0;
 }
+.placement_growth{
+    padding: 72px 42px;
+}
 .placement_growth  > .box:before {
   content: "\e91b";
-  font-family: 'YourIconFont'; /* Make sure your icon font is loaded */
+  font-family: 'YourIconFont';
+}
+.placement_growth  > .box > h2{
+    font-size: 80px;
+    word-spacing: -0.63px;
+    font-weight: 600;
+    font-family: var(--font-fam);
+    line-height: 1.1;
+    text-align: left;
+}
+.placement_growth  > .box > p
+{
+    font-size: 19px;
+    font-family: var(--font-fam);
+    word-spacing: -0.010em;
+    text-transform: capitalize;
+    font-weight: 700;
 }

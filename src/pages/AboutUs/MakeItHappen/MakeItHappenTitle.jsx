@@ -1,0 +1,119 @@
+import React from 'react'
+import "./style.css"
+import { LuSaveAll } from "react-icons/lu";
+import { FiUserPlus } from "react-icons/fi";
+export default function MakeItHappenTitle() {
+  return (
+    <>
+
+    <section className='px-50 py-20'>
+        <div className="container-fluid">
+            <div className="row align-items-center">
+                <div className="col-md-6">
+                    
+                    <div className="make_it_happen_leftblock rounded-3xl">
+                        <div className="left_block_content">
+                            <h5>
+                                we make it happen
+                            </h5>
+                            <h2>
+                                facilitating the hiring process & ensuring a good match
+                            </h2>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div className="col-md-6">
+                    <div className="makeithappen_block rounded-3xl">
+                        <div className="second_block">
+                            <div className="card">
+                                {/* ****************************************** */}
+                                <div className="card_title ">
+                                    <div className="icon flex  items-center">
+                                    <span><LuSaveAll /></span><p>Step 1</p>
+                                    </div>
+                                    <hr></hr>
+                                </div>
+                                 {/* ****************************************** */}
+                                 <div className="card_body">
+                                    <div className="user_icon">
+                                        <i><FiUserPlus /></i>
+                                    </div>
+                                    <h3>
+                                        identify employer’s need
+                                    </h3>
+                                    <p>
+                                        Nunc sed vitae sed tristique nisal dolor tellus are interdum ipsum erat pellentes.
+                                    </p>
+                                 </div>
+                                 {/* *************************************** */}
+                            </div>
+
+                        </div>
+                        {/* ******************************************** */}
+                        <div className="second_block pt-15">
+                            <div className="card">
+                                {/* ****************************************** */}
+                                <div className="card_title ">
+                                    <div className="icon flex  items-center">
+                                    <span><LuSaveAll /></span><p>Step 1</p>
+                                    </div>
+                                    <hr></hr>
+                                </div>
+                                 {/* ****************************************** */}
+                                 <div className="card_body">
+                                    <div className="user_icon">
+                                        <i><FiUserPlus /></i>
+                                    </div>
+                                    <h3>
+                                        identify employer’s need
+                                    </h3>
+                                    <p>
+                                        Nunc sed vitae sed tristique nisal dolor tellus are interdum ipsum erat pellentes.
+                                    </p>
+                                 </div>
+                                 {/* *************************************** */}
+                            </div>
+
+                        </div>
+                        {/* ******************** end .................>>>>>>>>>>>>> */}
+                         {/* ******************************************** */}
+                        <div className="second_block pt-15">
+                            <div className="card">
+                                {/* ****************************************** */}
+                                <div className="card_title ">
+                                    <div className="icon flex  items-center">
+                                    <span><LuSaveAll /></span><p>Step 1</p>
+                                    </div>
+                                    <hr></hr>
+                                </div>
+                                 {/* ****************************************** */}
+                                 <div className="card_body">
+                                    <div className="user_icon">
+                                        <i><FiUserPlus /></i>
+                                    </div>
+                                    <h3>
+                                        identify employer’s need
+                                    </h3>
+                                    <p>
+                                        Nunc sed vitae sed tristique nisal dolor tellus are interdum ipsum erat pellentes.
+                                    </p>
+                                 </div>
+                                 {/* *************************************** */}
+                            </div>
+
+                        </div>
+                        {/* ******************** end .................>>>>>>>>>>>>> */}
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    </>
+  )
+}

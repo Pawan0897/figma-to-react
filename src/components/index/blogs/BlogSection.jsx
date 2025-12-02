@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -113,7 +113,7 @@ export default function BlogSection() {
                         backgroundImage:
                           hoveredSlide === index
                             ? `url(${item?.hoverImage})`
-                            : "none",
+                            : "",
                         color: hoveredSlide === index ? "#fff" : "#000",
                         boxShadow:
                           hoveredSlide === index
