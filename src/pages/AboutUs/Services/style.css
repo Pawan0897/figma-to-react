@@ -8,12 +8,10 @@
   padding: 32px 48px 20px 50px;
   border-left: 1px solid #e0e0e0;
 }
-.aboutService_box > .box_item > .item_icon {
-}
+
 .aboutService_box > .box_item > .item_icon > i {
   font-size: 60px;
   background-color: #fbdf2d;
-
   position: relative;
   z-index: 1111;
   border-radius: 50%;

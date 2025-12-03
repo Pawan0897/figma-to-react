@@ -8,11 +8,11 @@ export default function AccordianSection() {
     const [activeKey, setActiveKey] = useState(null);
 
     const handleMouseEnter = (key) => {
-        setActiveKey(key); // open on hover
+        setActiveKey(key); 
     };
 
     const handleMouseLeave = () => {
-        setActiveKey(null); // close when mouse leaves
+        setActiveKey(null);
     };
 
 
@@ -23,7 +23,7 @@ export default function AccordianSection() {
                 <div className="container-fluid">
                     <div className="accordian_top_title mb-20">
                         <h2>Comprehensive <span className="text-blue-600">Digital Solutions</span></h2>
-                        <p >From initial concept to launch and ongoing support, we provide end-to-end digital solutions tailored to your needs.</p>
+                        <p>From initial concept to launch and ongoing support, we provide end-to-end digital solutions tailored to your needs.</p>
 
                     </div>
                     <Accordion activeKey={activeKey}>

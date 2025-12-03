@@ -1,0 +1,61 @@
+import img1 from "../img/contract-staffing.webp";
+import img2 from "../img/permanent-staffing.webp";
+import img3 from "../img/temporary-staffing1.webp";
+import "./style.css";
+import { RiUserStarLine } from "react-icons/ri";
+export default function StaffingSection() {
+  return (
+    <>
+      <section className="px-50 py-20">
+        <div className="container-fluid">
+          <div className="row">
+            {/* ********************************** */}
+            <div className="col-lg-4">
+              <div className="staffing_box">
+                <div className="staffing_img">
+                  <img src={img3} className="rounded-3xl" />
+                </div>
+                {/* ****** */}
+                <div className="staffing_detail">
+                    {/* *********** */}
+                    <div className="title flex justify-between items-center">
+                        <h5 className="capitalize">
+                            permanent staffing
+                        </h5>
+                        <div className="icon">
+                           <RiUserStarLine />
+                        </div>
+                    </div>
+                     {/* *********** */}
+                    <div className="show_text">
+                        <p>The Recruiting Initiative</p>
+                    </div>
+                   {/* *********** */}
+
+                    <hr ></hr>
+                </div>
+              </div>
+            </div>
+            {/* ********************************** */}
+            <div className="col-lg-4">
+              <div className="staffing_box">
+                <div className="staffing_img">
+                  <img src={img2} className="rounded-3xl" />
+                </div>
+              </div>
+            </div>
+            {/* ********************************** */}
+            <div className="col-lg-4">
+              <div className="staffing_box">
+                <div className="staffing_img">
+                  <img src={img1} className="rounded-3xl" />
+                </div>
+              </div>
+            </div>
+            {/* ********************************** */}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

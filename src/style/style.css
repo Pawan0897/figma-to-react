@@ -28,6 +28,12 @@ span {
     font-family: var(--font-fam) !important;
 }
 
+.pbr{
+    padding-right: 72px;
+}
+.pbl{
+    padding-left: 72px ;
+}
 .font-fam {
     font-family: var(--font-fam);
 }
