@@ -36,7 +36,7 @@ display: flex;
     margin-top: 10px;
 }
 .sticky_block > .make_it_happen_leftblock > .left_block_content > .button > a{
-display: flex;
+    display: flex;
     align-items: center;
     background-color: #1c1d26;
     padding: 22px 35px;

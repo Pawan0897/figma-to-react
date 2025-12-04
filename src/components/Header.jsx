@@ -33,7 +33,7 @@ function closeMenu() {
                 <header >
                     <nav className="navbar navbar-expand-lg  ">
                         {/* Logo */}
-                        <Link className="navbar-brand" to="#">
+                        <Link className="navbar-brand" to="/">
                             <div className="logo">
                                 <img src={logo} alt="Algotechs Logo" />
                             </div>
@@ -73,7 +73,7 @@ function closeMenu() {
                                 <li className="nav-item">
                                     <Link
                                         className="nav-link fw-semibold visible  hover:text-indigo-600"
-                                        to="#"
+                                        to="/"
                                     >
                                         Technologies
                                     </Link>
@@ -103,9 +103,9 @@ function closeMenu() {
                                                 <div className="col-4">
                                                     <h6 className="fw-bold mb-3">Development</h6>
                                                     <ul className="list-unstyled">
-                                                        <li><Link className="dropdown-item" to="/web-dev">Web Development</Link></li>
-                                                        <li><Link className="dropdown-item" to="/mobile-dev">Mobile Apps</Link></li>
-                                                        <li><Link className="dropdown-item" to="/software">Software Solutions</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">Web Development</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">Mobile Apps</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">Software Solutions</Link></li>
                                                     </ul>
                                                 </div>
 
@@ -113,9 +113,9 @@ function closeMenu() {
                                                 <div className="col-4">
                                                     <h6 className="fw-bold mb-3">Design</h6>
                                                     <ul className="list-unstyled">
-                                                        <li><Link className="dropdown-item" to="/ui-ux">UI/UX Design</Link></li>
-                                                        <li><Link className="dropdown-item" to="/branding">Branding</Link></li>
-                                                        <li><Link className="dropdown-item" to="/graphics">Graphic Design</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">UI/UX Design</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">Branding</Link></li>
+                                                        <li><Link className="dropdown-item" to="/services">Graphic Design</Link></li>
                                                     </ul>
                                                 </div>
 
