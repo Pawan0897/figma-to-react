@@ -55,7 +55,7 @@ export default function Progress_Number_section() {
   }, [inView]);
 
   return (
-    <section className="px-50 py-20">
+    <section className="px-50 py-20 md-padding">
       <div className="container-fluid" ref={ref}>
         <div className="row">
           {/* **************** Vtitle ************** */}

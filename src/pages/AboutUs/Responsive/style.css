@@ -1,0 +1,34 @@
+@media only screen and (max-width:768px) {
+    .md-padding{
+        padding: 30px 30px !important;
+    }
+    /* .employmentsolution>.title h2 {
+    font-size: 37px;
+    }
+    .aboutService_box {
+    padding: 25px 20px 20px 20px;
+    }
+    .box-title > h4{
+        font-size: 20px;
+    } */
+     .right_block {
+        padding: 0;
+     }
+     .toggle_button > a {
+
+        display: block;
+        text-align: center;
+     }
+     .sticky_block {
+    position: unset;
+     }
+     .makeithappen_block {
+    margin-top: 50px;}
+    .progress_number_block{
+        margin-top:50px;
+    }
+    .aword_box > .card >.aword_card_img > img {
+    width: 45%;
+    margin: auto;
+    }
+}

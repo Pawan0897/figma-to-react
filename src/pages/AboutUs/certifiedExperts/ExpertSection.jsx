@@ -7,7 +7,7 @@ export default function ExpertSection() {
   return (
     <>
       <section className=" px-3   ">
-        <div className="section_expert_padding px-50  rounded-3xl py-20">
+        <div className="section_expert_padding px-50  rounded-3xl py-20 md-padding">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6">
@@ -133,7 +133,7 @@ export default function ExpertSection() {
             {/* *(((((******************************** row *********************************))))) */}
             <div className="row mt-4">
                 {/* ************************************ */}
-                  <div className="col-md-3">
+                  <div className="col-12 col-lg-3 col-md-6">
                     <div className="exper_detail">
                       <div className="card rounded-3xl">
                         <div className="img">
@@ -183,7 +183,7 @@ export default function ExpertSection() {
                   </div>
                   {/* ******************************************* col end */}
                    {/* ************************************ */}
-                  <div className="col-md-3">
+                  <div className="col-12 col-lg-3 col-md-6">
                     <div className="exper_detail">
                       <div className="card rounded-3xl">
                         <div className="img">
@@ -233,7 +233,7 @@ export default function ExpertSection() {
                   </div>
                   {/* ******************************************* col end */}
                    {/* ************************************ */}
-                  <div className="col-md-3">
+                  <div className="col-12 col-lg-3 col-md-6">
                     <div className="exper_detail">
                       <div className="card rounded-3xl">
                         <div className="img">
@@ -283,7 +283,7 @@ export default function ExpertSection() {
                   </div>
                   {/* ******************************************* col end */}
                    {/* ************************************ */}
-                  <div className="col-md-3">
+                  <div className="col-12 col-lg-3 col-md-6">
                     <div className="exper_detail">
                       <div className="card rounded-3xl">
                         <div className="img">

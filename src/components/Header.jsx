@@ -197,16 +197,16 @@ function closeMenu() {
                                                     <div className="mega_menu_link border-e-2 border-gray-400">
                                                         <ul>
                                                             <li>
-                                                                <Link>  Home</Link>
+                                                                <Link to={"/"}>  Home</Link>
                                                             </li>
                                                             <li>
                                                                 <Link> Home Page</Link>
                                                             </li>
-                                                            <li>
-                                                                <Link>About Us</Link>
+                                                            <li >
+                                                                <Link to={"/aboutus"}>About Us</Link>
                                                             </li>
                                                             <li>
-                                                                <Link> Our Services</Link>
+                                                                <Link to={"dervices"}> Our Services</Link>
                                                             </li>
                                                             <li>
                                                                 <Link> Case Studies</Link>
@@ -215,7 +215,7 @@ function closeMenu() {
                                                                 <Link> News & insights</Link>
                                                             </li>
                                                             <li>
-                                                                <Link> Contact Us</Link>
+                                                                <Link to={"/contactus"}> Contact Us</Link>
                                                             </li>
                                                         </ul>
                                                     </div>

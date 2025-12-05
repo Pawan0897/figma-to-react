@@ -6,10 +6,10 @@ import { AiOutlineArrowDown } from "react-icons/ai";import { Link } from 'react-
 export default function MakeItHappenTitle() {
   return (
     <>
-      <section className="px-50 py-20">
+      <section className="px-50 py-20 md-padding">
         <div className="container-fluid">
           <div className="row  makeit-wrapper ">
-            <div className="col-md-6 ">
+            <div className="col-md-12 col-12 col-lg-6 ">
               <div className="sticky_block">
                 <div className="make_it_happen_leftblock rounded-3xl">
                   <div className="left_block_content">
@@ -33,7 +33,7 @@ export default function MakeItHappenTitle() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-12 col-lg-6">
               <div className="makeithappen_block rounded-3xl">
                 <div className="second_block">
                   <div className="card">

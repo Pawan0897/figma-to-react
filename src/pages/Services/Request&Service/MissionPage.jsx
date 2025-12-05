@@ -1,35 +1,42 @@
-import React from 'react'
-import img from "./img/mission.webp"
-import "./style.css"
+import React from "react";
+import img from "./img/mission.webp";
+import "./style.css";
+import { AiOutlineArrowDown } from "react-icons/ai";
 export default function MissionPage() {
   return (
     <>
-    <section className='px-50 py-20'>
+      <section className="px-50 py-20">
         <div className="container-fluid">
-      <div className="row">
-        <div className="col-md-6">
-            <div className="mission_img">
-                <img src={img} alt="" />
+          <div className="row">
+            <div className="col-md-6 p-0">
+              <div className="mission_img rounded-3xl">
+                {/* <img src={img} alt="" className="rounded-3xl" /> */}
+              </div>
             </div>
-        </div>
-        {/* ******** */}
-        <div className="col-md-6 ">
-          <div className="mission_text">
- <div className="mission_content">
-                <h5 className='capitalize'>
-                    agency mission & purpose
-                </h5>
-                <h2 className='capitalize'>
+            {/* ******** */}
+            <div className="col-md-6 ">
+              <div className="mission_text">
+                <div className="mission_content">
+                  <h5 className="capitalize">agency mission & purpose</h5>
+                  <h2 className="capitalize">
                     talent strategies that empowers you
-                </h2>
+                  </h2>
+                  <p className="capitalize">
+                    At mattis elementum semper tellus donec ornare. Dolorui
+                    auctor pellentesque urna nam lectus. Non tellus risus leoat
+                    dignissim sed nunc. Sit platea nunc egestas.
+                  </p>
+                  <div className="button ">
+                    <button className="capitalize flex justify-center items-center">
+                      <span> <AiOutlineArrowDown /></span> Our Case Studies <span> <AiOutlineArrowDown /></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-           
         </div>
-      </div>
-        </div>
-    </section>
-      
+      </section>
     </>
-  )
+  );
 }

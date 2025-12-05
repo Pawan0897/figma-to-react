@@ -4,6 +4,7 @@ import Index from '../components/Index'
 import AboutPage from '../components/AboutPage'
 import Banner_Section from '../pages/News&Insight/Banner/Banner_Section'
 import Services from './Services'
+import ContactUs from './ContactUs'
 
 export default function Layout() {
     return (
@@ -13,6 +14,7 @@ export default function Layout() {
                <Route path='/aboutus' element={<AboutPage/>} />
                <Route path='/blog'  element={<Banner_Section />}/>
                <Route path='/services' element={<Services />} />
+               <Route path='/contactus' element={<ContactUs />} />
             </Routes>
         </>
     )

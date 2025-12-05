@@ -4,14 +4,14 @@ import { LiaUserClockSolid } from "react-icons/lia";
 export default function Services() {
   return (
     <>
-      <section className="pt-10 px-55 pb-10">
+      <section className="pt-10 px-55 pb-10 md-padding">
         <div className="container-fluid p-0">
             <div className="aboutServices">
       
 
           {/* ******************************* */}
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-12 ">
               <div className="aboutService_box">
                 <div className="box_item">
                   <div className="item_icon mb-6">
@@ -34,7 +34,7 @@ export default function Services() {
                 {/* ******************************** */}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-12 ">
               {/* **************************************** */}
                <div className="aboutService_box">
                 {/* *************** */}
@@ -59,7 +59,7 @@ export default function Services() {
                 {/* ******************************** */}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-12 ">
               {/* **************************** */}
                <div className="aboutService_box">
                 {/* ********************************* */}

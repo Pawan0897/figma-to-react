@@ -24,6 +24,7 @@ h3,
 h4,
 h5,
 h6,
+button,
 span {
     font-family: var(--font-fam) !important;
 }
@@ -838,21 +839,6 @@ background-position: center 50%;
 
 
 /* *********************************************** >>>>>>>>>>>>>>>>>>>>>>>>> section ninth section ninth.. */
-.section_ninth_contact_form {
-    background-image: url("../img/contact/contact_bg_form.png");
-    background-size: cover;
-}
-
-.contact_side_bg {
-    width: 100%;
-    height: 100%;
-
-}
-
-.contact_side_bg>img {
-    width: 100%;
-    height: 100%;
-}
 
 /* *****************************>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. section slider */
 

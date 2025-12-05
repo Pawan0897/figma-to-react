@@ -8,7 +8,7 @@ export default function AboutUsBanner() {
         <div className="container-fluid">
           <div className="row justify-center  items-center">
             {/* ******************************** */}
-            <div className="col-md-7">
+            <div className="col-12 col-lg-7 col-md-12">
                {/* ******************************** */}
                <div className="banner pbl">
               <div className="aboutBanner  flex justify-center items-center rounded-3xl">
@@ -21,7 +21,7 @@ export default function AboutUsBanner() {
                  {/* ******************************** */}
             </div>
              {/* ******************************** */}
-            <div className="col-md-5">
+            <div className="col-12 col-lg-5 d-none d-lg-block">
                {/* ******************************** */}
               <div className="bannerImage pbr ">
                 <img src={aboutImg} className="rounded-3xl" alt="" />

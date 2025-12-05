@@ -5,10 +5,10 @@ import "./style.css";
 export default function Section() {
   return (
     <>
-      <section className="px-55 pt-20 pb-10">
+      <section className="px-55 pt-20 pb-10 md-padding">
         <div className="container-fluid ">
           <div className="row">
-            <div className="col-md-9">
+            <div className="col-12 col-md-12 col-lg-9 ">
               <div className="employmentsolution ">
                 <div className="title">
                   <h6 className="text-uppercase font-semibold  ">
@@ -21,7 +21,7 @@ export default function Section() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-12 col-lg-3 d-none d-lg-block">
               <div className="arrow_icon float-end ">
                 <AiOutlineArrowDown />
               </div>

@@ -4,7 +4,7 @@ import aword from "../img/awar.webp"
 export default function Awords_section() {
   return (
     <>
-      <section className="px-20 py-20">
+      <section className="px-20 py-20 md-padding">
         <div className="container-fluid">
             <div className="row justify-center ">
                  {/* *************************** */}

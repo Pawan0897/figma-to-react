@@ -7,6 +7,7 @@ import Card from "../pages/Services/ScrollStack/Card";
 import Page from "../pages/Services/TalentSourcing/Page";
 import Footer from "./Footer";
 import MissionPage from "../pages/Services/Request&Service/MissionPage";
+import ContactBlock from "./index/Contact/ContactBlock";
 
 export default function Services() {
   return (
@@ -17,9 +18,10 @@ export default function Services() {
         <RequirementSection />
         <StaffingSection />
         <Card />
-       <Page/>
-       <MissionPage />
-       <Footer />
+        <Page />
+        <MissionPage />
+        <ContactBlock />
+        <Footer />
       </>
     </>
   );

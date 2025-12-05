@@ -7,7 +7,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 export default function HiringSection() {
   return (
     <>
-      <section className="px-50 pt-10 pb-10">
+      <section className="px-50 pt-10 pb-10 md-padding">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">

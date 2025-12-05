@@ -10,7 +10,7 @@ import MakeItHappenTitle from '../pages/AboutUs/MakeItHappen/MakeItHappenTitle'
 import Progress_Number_section from '../pages/AboutUs/ProgressNumber/Progress_Number_section'
 import Awords_section from '../pages/AboutUs/Awords/Awords_section'
 import Footer from './Footer'
-
+import "../pages/AboutUs/Responsive/style.css"
 
 export default function AboutPage() {
   return (
