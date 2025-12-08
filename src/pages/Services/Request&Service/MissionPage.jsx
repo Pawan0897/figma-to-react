@@ -5,16 +5,16 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 export default function MissionPage() {
   return (
     <>
-      <section className="px-50 py-20">
+      <section className="px-50 py-20 md-padding">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-6 p-0">
+            <div className="col-12 col-lg-6 col-md-12  p-0">
               <div className="mission_img rounded-3xl">
                 {/* <img src={img} alt="" className="rounded-3xl" /> */}
               </div>
             </div>
             {/* ******** */}
-            <div className="col-md-6 ">
+            <div className="col-12 col-lg-6 col-md-12  ">
               <div className="mission_text">
                 <div className="mission_content">
                   <h5 className="capitalize">agency mission & purpose</h5>

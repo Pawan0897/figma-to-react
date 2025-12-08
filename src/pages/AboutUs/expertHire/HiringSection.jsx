@@ -13,7 +13,7 @@ export default function HiringSection() {
             <div className="col-md-12">
               <div className="recruiter-banner">
                 <img src={img} width={100} className="rounded-3xl" />
-                <div className="icon">
+                <div className="icon d-none d-lg-block">
                   <img src={icon} alt="" />
                 </div>
               </div>

@@ -17,12 +17,11 @@ export default function Progress_Number_section() {
 
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.5,
+    threshold: 0,
   });
 
   useEffect(() => {
     if (inView) {
-      // Animate AcceptRate
       let a = 0;
       const acceptTimer = setInterval(() => {
         a += 1;
@@ -30,7 +29,7 @@ export default function Progress_Number_section() {
         if (a >= AcceptRate) clearInterval(acceptTimer);
       }, 20);
 
-      // Animate JobSuccessRate
+     
       let j = 0;
       const jobTimer = setInterval(() => {
         j += 1;
@@ -38,7 +37,7 @@ export default function Progress_Number_section() {
         if (j >= JobSuccessRate) clearInterval(jobTimer);
       }, 20);
 
-      // Animate InterviewRate
+   
       let i = 0;
       const interviewTimer = setInterval(() => {
         i += 1;

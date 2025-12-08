@@ -8,11 +8,11 @@ import Page from "../pages/Services/TalentSourcing/Page";
 import Footer from "./Footer";
 import MissionPage from "../pages/Services/Request&Service/MissionPage";
 import ContactBlock from "./index/Contact/ContactBlock";
+import "../pages/Services/Responsive/style.css";
 
 export default function Services() {
   return (
     <>
-      <>
         <Header />
         <ServiceBanner />
         <RequirementSection />
@@ -22,7 +22,6 @@ export default function Services() {
         <MissionPage />
         <ContactBlock />
         <Footer />
-      </>
     </>
   );
 }

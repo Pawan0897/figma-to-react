@@ -6,7 +6,7 @@ export default function ServiceBanner() {
       <section>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-12 col-md-12 col-lg-7 ">
                 <div className="service pbl">
  {/* *********************** */}
               
@@ -18,7 +18,7 @@ export default function ServiceBanner() {
               </div>  </div>
               {/* *********************** */}
             </div>
-            <div className="col-md-5">
+            <div className="col-12 col-lg-5 d-none d-lg-block">
               <div className="banner_img pbr">
                 <img src={img} alt="" className="rounded-3xl" />
               </div>

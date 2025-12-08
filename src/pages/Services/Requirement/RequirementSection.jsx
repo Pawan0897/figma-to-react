@@ -4,7 +4,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 export default function RequirementSection() {
   return (
     <>
-      <section className="px-50 py-20">
+      <section className="px-50 py-20 md-padding">
         <div className="container-fluid">
           <div className="row items-center">
             <div className="sectiom_title text-center">
@@ -14,7 +14,7 @@ export default function RequirementSection() {
               <h2 className="capitalize">sectors we recruit in</h2>
             </div>
             {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">
@@ -39,7 +39,7 @@ export default function RequirementSection() {
             </div>
             {/* ************ end */}
              {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">
@@ -64,7 +64,7 @@ export default function RequirementSection() {
             </div>
             {/* ************ end */}
              {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">
@@ -89,7 +89,7 @@ export default function RequirementSection() {
             </div>
             {/* ************ end */}
              {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">
@@ -114,7 +114,7 @@ export default function RequirementSection() {
             </div>
             {/* ************ end */}
              {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">
@@ -139,7 +139,7 @@ export default function RequirementSection() {
             </div>
             {/* ************ end */}
              {/* ******************************* */}
-            <div className="col-md-4">
+            <div className="col-12 col-lg-4 col-md-6 col-sm-12 col-xs-12">
               <div className="section_cards">
                 {/* *********** */}
                 <div className="card ">

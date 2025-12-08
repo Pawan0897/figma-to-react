@@ -9,7 +9,7 @@ export default function Awords_section() {
             <div className="row justify-center ">
                  {/* *************************** */}
            <div className="col-lg-7">
-             <div className="aword_title text-center px-30">
+             <div className="aword_title text-center px-30 md-padding">
               <h2 className="text-capitalize">awards & accreditations</h2>
               <p  className="text-capitalize"   >
                 Urnas amet ubitant tortors mattis interdum urnays. Sagittis

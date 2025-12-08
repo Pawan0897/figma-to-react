@@ -45,13 +45,13 @@
 .section_ninth_contact_form {
     /* background-image: url("../img/contact/contact_bg_form.png"); */
     background-size: cover;
-    background-color:#f4f4f4;
+
     padding:48px 72px;
     margin:0px 21px;
 }
 
 .contact_side_bg {
-    width: 88%;
+    width: 84%;
     height: 100%;
 
 }

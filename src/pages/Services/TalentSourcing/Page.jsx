@@ -56,7 +56,7 @@ export default function Page() {
   }, []);
   return (
     <>
-      <section className="px-50 py-20">
+      <section className="px-50 py-20 md-padding">
         <div className="container-fluid talent_source_bg p-0 rounded-3xl">
           {/* ************************************ */}
           <div className="top_header_bg">
@@ -79,7 +79,7 @@ export default function Page() {
             {/* ******************************** */}
             <div className="col-lg-7">
               <div className="circle_section">
-                <div className="circle_box">
+                <div className="circle_box  rotate-circle">
                   <div className="icon">
                     <RiHandbagFill />
                   </div>
@@ -104,7 +104,7 @@ export default function Page() {
                     <LuMessageSquareHeart />
                   </div>
                   {/* ************************************* circle_box content */}
-                  <div className="circle_box_content p-5">
+                  <div className="circle_box_content stop-rotate p-5">
                     <div className="box_content">
                       <div className="content">
                         <h4 className="capitalize text-light ">
@@ -142,6 +142,32 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
       </section>
     </>
   );

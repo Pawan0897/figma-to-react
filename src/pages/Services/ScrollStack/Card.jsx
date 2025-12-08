@@ -6,7 +6,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { Projects } from "./Projects";
 import "./style.css";
 import { Link } from "react-router";
-
+import img1 from "./img/executive-search.webp"
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default function Card() {
@@ -42,7 +42,8 @@ export default function Card() {
   }, []);
 
   return (
-    <section className="pbl pbr">
+    <>
+    <section className="pbl pbr  d-none d-lg-block">
       <div className="container-fluid ">
         <div className="row">
           <div className="col-12">
@@ -59,7 +60,7 @@ export default function Card() {
                         <div className="content">
 
                         
-                        <div className="stack_icon">
+                        <div className="stack_icon  ">
                           <AiOutlineArrowDown />
                         </div>
                         <div className="stack_title">
@@ -93,5 +94,43 @@ export default function Card() {
         </div>
       </div>
     </section>
+    {/* // ****************************************************************** displauy on md screen ****************************** */}
+      <section className="p-2 d-lg-none d-sm-block">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-md-12 bg-backgorund">
+              <div className="md-scroll-stack-block">
+                <div className="md-scroll-img ">
+                  <img src={img1} alt="" className="rounded-3xl" />
+                </div>
+                {/* ****************** */}
+                <div className="md-scroll-details">
+                  {/* ************* */}
+                  <div className="title ">
+                    <h5 className="capitalize">permanent staffing</h5>
+
+                    <h2  className="capitalize">
+                      executive search
+                    </h2>
+                    <p  className="capitalize">
+                      Mattis element semper tellus donec ornae. Eolor auctor
+                      pellen tesque urna nam lectus. Tellus risus dapibus ornare
+                      interdum tempore lorem.
+                    </p>
+                  </div>
+                   {/* ******************** */}
+                  <div className="button d-flex">
+                    <Link className="capitalize rounded-2xl mt-2">
+                   Read More <span> <AiOutlineArrowDown /></span>
+                    </Link>
+                  </div>
+                </div>
+                {/* *************************** */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </>
   );
 }

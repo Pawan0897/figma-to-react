@@ -120,3 +120,66 @@
   margin-left: 10px;
   padding-left: 10px;
 }
+
+
+/* ********************************************************************************  small screen show block  ******************************************* */
+.md-scroll-details{
+  margin:30px 10px;
+}
+
+.md-scroll-details > .title > h5{
+   display: inline-block;
+  padding: 4px 8px;
+  background: linear-gradient(
+    to top,
+    hsla(113, 56%, 80%, calc(100% - 40%)),
+    transparent 40%
+  );
+  color: #383838;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-fam);
+  margin-top: 10px;
+}
+.md-scroll-details > .title > h2{
+ font-size: 42px;
+  line-height: 1.1;
+  color: #1c1d26;
+  font-weight: 600;
+}
+
+.md-scroll-details > .title
+{
+    font-weight: 300;
+  font-size: 15px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  color: #1c1d26;
+}
+
+.md-scroll-details > .button > a{
+    display: flex;
+  align-items: center;
+  background-color: #1c1d26;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: #ffff;
+  font-weight: 600;
+}
+.bg-backgorund{
+  position: relative;
+}
+.bg-backgorund::before{
+  content:"";
+  left: -2%;
+  top:0;
+  bottom: 0;
+  position: absolute;
+  right: 50%;
+  background-color: #f4f4f4;
+  z-index: -1;
+}

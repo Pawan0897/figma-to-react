@@ -29,6 +29,17 @@ span {
     font-family: var(--font-fam) !important;
 }
 
+.bg-form-blue{
+  background-color: hsla(217, 100%,calc(57% - 25%), 100%) !important;
+}
+.bg-form-grey{
+
+    background-color:#f4f4f4;
+}
+.btn_yellow{
+    background-color: #fbe12e !important;
+    color: #0c0b0b !important;
+}
 .pbr{
     padding-right: 72px;
 }

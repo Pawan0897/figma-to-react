@@ -24,7 +24,7 @@ export default function FuterWithUsSection() {
             <div className="col-12 col-lg-6 col-md-12">
               <div className="right_block">
                 <div className="title ">
-                  <h5>start bright future with us</h5>
+                  <h5 className="text-capitalize">start bright future with us</h5>
                   {/* ********************************** */}
                   <h2 className="text-capitalize ">
                     Get industry-leading recruitment plans

@@ -206,7 +206,7 @@ function closeMenu() {
                                                                 <Link to={"/aboutus"}>About Us</Link>
                                                             </li>
                                                             <li>
-                                                                <Link to={"dervices"}> Our Services</Link>
+                                                                <Link to={"/services"}> Our Services</Link>
                                                             </li>
                                                             <li>
                                                                 <Link> Case Studies</Link>

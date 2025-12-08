@@ -38,7 +38,7 @@ export default function MessageForm() {
             </div>
             {/* ************************************************ */}
             <div className="col-lg-8 p-0">
-              <div className="section_ninth_contact_form p-10 rounded-2xl ">
+              <div className="section_ninth_contact_form p-10 rounded-2xl bg-form-grey ">
                 <div className="contact_form_bg ">
                   <div className="contact_title mb-5 ">
                     <h3 className="">Send Message</h3>

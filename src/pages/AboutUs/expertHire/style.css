@@ -130,3 +130,11 @@ font-family: var(--font-fam);
    transform: rotate(325deg);
    font-size: 50px; 
 }
+   
+   
+ .exper_section_title >    p{
+font-size: 15px;
+font-weight: 300;
+margin:40px 0px;
+font-family: var(--font-fam);
+}

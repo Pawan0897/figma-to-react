@@ -1,7 +1,6 @@
 .section_ninth_contact_form {
     /* background-image: url("../img/contact/contact_bg_form.png"); */
     background-size: cover;
-    background-color: hsla(217, 100%,calc(57% - 25%), 100%);
     padding: 72px;
 }
 
@@ -48,7 +47,6 @@
 
 .section_fourth_button > .contact_button {
     width: 100%;
-    background-color: #fbe12e;
     padding:20px 36px;
      display: flex;
     justify-content: center;

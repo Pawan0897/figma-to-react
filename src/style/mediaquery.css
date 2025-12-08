@@ -294,6 +294,15 @@
 
 /* ************************************************************************************************************************************************************************************ */
 @media only screen and (max-width: 480px) {
+    .mega_menu_item > .mega_menu_link > ul{
+padding: 0px;
+    }
+    .mega_menu_img {
+        margin-top:20px;
+    }
+
+
+
     .center_built_button>.buit_button {
         left: 0%;
     }
@@ -726,7 +735,7 @@ background-position: top;
         font-size: 9px;
         margin-top: -10px;
     }
-/* (**** */
+/* (************************************************** n  )))))))))))))))))))))))))>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     .section_three_digit>.counting_digit>.count_number {
         max-width: 150px;
     }
